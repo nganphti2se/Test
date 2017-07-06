@@ -24,7 +24,7 @@ public class IntegerNumber {
         this.value = value;
     }
     
-    private boolean isPrimeNumber() {
+    public boolean isPrimeNumber() {
         if (value < 2) {
             return false;
         } else {

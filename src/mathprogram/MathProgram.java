@@ -5,6 +5,8 @@
  */
 package mathprogram;
 
+import data.IntegerNumber;
+
 /**
  *
  * @author julie
@@ -15,7 +17,8 @@ public class MathProgram {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        IntegerNumber number = new IntegerNumber(5);
+        System.out.println(number.isPrimeNumber());
     }
     
 }
