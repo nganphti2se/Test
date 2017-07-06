@@ -10,7 +10,11 @@
 <project name="MathProgram" default="default" basedir=".">
     <description>Builds, tests, and runs the project MathProgram.</description>
     <import file="nbproject/build-impl.xml"/>
-
+	<path id="class.path">
+  <fileset dir="lib">
+    <include name="**/junit-4.12.jar" />
+  </fileset>
+</path>
     
 	<!--
 
