@@ -12,8 +12,8 @@
     <import file="nbproject/build-impl.xml"/>
 	<property name="JUNIT_HOME" value="C:/Program Files (x86)/Jenkins/workspace"/>
 <path id="JUnit 4.libraryclasspath">
-    <pathelement location="${JUNIT_HOME}/junit.jar"/>
-    <pathelement location="${JUNIT_HOME}/hamcrest-core.jar"/>
+    <pathelement location="${JUNIT_HOME}/junit-4.12.jar"/>
+    <pathelement location="${JUNIT_HOME}/hamcrest-core-1.3.jar"/>
 </path>
 <path id="projectname.classpath">
     <pathelement location="E:/apache-ant-1.10.1-bin/apache-ant-1.10.1/bin"/>
