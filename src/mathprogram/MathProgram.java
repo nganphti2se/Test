@@ -17,8 +17,8 @@ public class MathProgram {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        IntegerNumber number = new IntegerNumber(5);
-        System.out.println(number.isPrimeNumber());
+//        IntegerNumber number = new IntegerNumber(5);
+//        System.out.println(number.isPrimeNumber());
     }
     
 }
