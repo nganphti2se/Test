@@ -10,21 +10,7 @@
 <project name="MathProgram" default="default" basedir=".">
     <description>Builds, tests, and runs the project MathProgram.</description>
     <import file="nbproject/build-impl.xml"/>
-	<property name="JUNIT_HOME" value="C:/Program Files (x86)/Jenkins/workspace"/>
-<path id="JUnit 4.libraryclasspath">
-    <pathelement location="${JUNIT_HOME}/junit-4.12.jar"/>
-    <pathelement location="${JUNIT_HOME}/hamcrest-core-1.3.jar"/>
-</path>
-<path id="projectname.classpath">
-    <pathelement location="C:/Program Files/Java/jre1.8.0_131/bin"/>
-    <path refid="JUnit 4.libraryclasspath"/>
-</path>
 
-<!--in your javac task include the classpath -->
-<javac debug="true" debuglevel="${debuglevel}" destdir="C:/Program Files/Java/jre1.8.0_131/bin" source="${source}" target="${target}">
-    <src path="src"/>
-    <classpath refid="projectname.classpath"/>
-</javac>
     
 	<!--
 
