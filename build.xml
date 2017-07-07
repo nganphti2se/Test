@@ -13,9 +13,9 @@
 
     <junit printsummary="yes" haltonfailure="yes">
     <classpath>
-        <path refid="your.classpath.refid" />
+        <path refid="C:/Program Files (x86)/Jenkins/workspace/junit-4.12.jar" />
         <fileset dir="${junit.dir}">
-            <include name="C:/Program Files (x86)/Jenkins/workspace/junit-4.12.jar" />
+            <include name="**/junit-4.12.jar" />
         </fileset>
     </classpath>
     
