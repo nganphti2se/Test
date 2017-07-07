@@ -10,12 +10,16 @@
 <project name="MathProgram" default="default" basedir=".">
     <description>Builds, tests, and runs the project MathProgram.</description>
     <import file="nbproject/build-impl.xml"/>
-	<path id="class.path">
-  <fileset dir="lib">
-    <include name="**/junit-4.12.jar" />
-  </fileset>
-</path>
+
+    <junit printsummary="yes" haltonfailure="yes">
+    <classpath>
+        <path refid="your.classpath.refid" />
+        <fileset dir="${junit.dir}">
+            <include name="C:/Program Files (x86)/Jenkins/workspace/junit-4.12.jar" />
+        </fileset>
+    </classpath>
     
+	</junit>
 	<!--
 
     There exist several targets which are by default empty and which can be 
